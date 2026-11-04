@@ -1,0 +1,57 @@
+{
+  "equipamento_id": "motor-01",
+  "sensores_imputados": [],
+  "leituras_no_buffer": 13,
+  "anomalia_classico": {
+    "anomalia": true,
+    "confianca": 0.9362,
+    "score_anomalia": 0.9362,
+    "modelo": "classico:gradient_boosting",
+    "latencia_ms": 0.748
+  },
+  "manutencao_classico": {
+    "risco_manutencao": "normal",
+    "confianca": 0.95,
+    "probabilidades": {
+      "normal": 0.95,
+      "monitoramento": 0.05,
+      "alerta": 0.0,
+      "critico": 0.0
+    },
+    "features_rolantes": {
+      "vib_roll": 3.6262,
+      "harm_roll": 3.6069,
+      "efic_roll": 88.2169,
+      "efic_slope": -0.0462
+    },
+    "modelo": "classico:random_forest",
+    "latencia_ms": 26.681
+  },
+  "anomalia_quantico": {
+    "anomalia": false,
+    "confianca": 0.5877,
+    "score_anomalia": 0.4123,
+    "modelo": "quantico:qsvc_amplitude (statevector exato/Qiskit, 2 qubits)",
+    "latencia_ms": 347.708,
+    "janela": "10 leituras"
+  },
+  "manutencao_quantico": {
+    "risco_manutencao": "normal",
+    "confianca": 0.5331,
+    "probabilidades": {
+      "normal": 0.5331,
+      "monitoramento": 0.1351,
+      "alerta": 0.2481,
+      "critico": 0.0837
+    },
+    "features_rolantes": {
+      "vib_roll": 3.6262,
+      "harm_roll": 3.6069,
+      "efic_roll": 88.2169,
+      "efic_slope": -0.0462
+    },
+    "modelo": "quantico:vqc (PauliFeatureMap+EfficientSU2, 4 qubits)",
+    "latencia_ms": 5.534
+  },
+  "latencia_total_ms": 381.059
+}

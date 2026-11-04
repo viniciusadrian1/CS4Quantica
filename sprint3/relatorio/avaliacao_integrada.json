@@ -1,0 +1,196 @@
+{
+  "config": {
+    "n_pontual": 200,
+    "n_http": 50,
+    "fonte": "dataset_motor_sprint2_bruto.csv (50% anômalas)"
+  },
+  "latencia_inferencia_in_process": {
+    "anomalia_classico": {
+      "p50_ms": 0.993,
+      "p95_ms": 1.291,
+      "media_ms": 1.025,
+      "n": 200
+    },
+    "anomalia_quantico": {
+      "p50_ms": 518.216,
+      "p95_ms": 620.914,
+      "media_ms": 534.772,
+      "n": 191
+    },
+    "manutencao_classico": {
+      "p50_ms": 44.765,
+      "p95_ms": 47.309,
+      "media_ms": 44.934,
+      "n": 200
+    },
+    "manutencao_quantico": {
+      "p50_ms": 6.355,
+      "p95_ms": 8.563,
+      "media_ms": 6.6,
+      "n": 200
+    }
+  },
+  "sanidade_acuracia_pontual_classico": 0.97,
+  "latencia_api_http": {
+    "classico": {
+      "p50_ms": 50.61,
+      "p95_ms": 53.823,
+      "media_ms": 51.08,
+      "n": 50
+    },
+    "quantico": {
+      "p50_ms": 531.245,
+      "p95_ms": 665.296,
+      "media_ms": 548.014,
+      "n": 50
+    },
+    "ambos": {
+      "p50_ms": 585.798,
+      "p95_ms": 718.792,
+      "media_ms": 607.647,
+      "n": 50
+    }
+  },
+  "teste_de_carga_classico": {
+    "concorrencia_1": {
+      "p50_ms": 51.445,
+      "p95_ms": 54.852,
+      "media_ms": 51.929,
+      "n": 40,
+      "throughput_req_s": 19.19,
+      "taxa_sucesso": 1.0,
+      "n_requests": 40
+    },
+    "concorrencia_5": {
+      "p50_ms": 234.686,
+      "p95_ms": 263.715,
+      "media_ms": 234.878,
+      "n": 40,
+      "throughput_req_s": 20.8,
+      "taxa_sucesso": 1.0,
+      "n_requests": 40
+    },
+    "concorrencia_20": {
+      "p50_ms": 1000.527,
+      "p95_ms": 1223.917,
+      "media_ms": 968.555,
+      "n": 80,
+      "throughput_req_s": 19.53,
+      "taxa_sucesso": 1.0,
+      "n_requests": 80
+    }
+  },
+  "custo_treino_s": {
+    "cenario1_anomalia": {
+      "svm_rbf": 0.449,
+      "random_forest": 0.142,
+      "mlp": 1.202,
+      "gradient_boosting": 0.366,
+      "qsvc_amplitude": 4.919
+    },
+    "cenario2_manutencao": {
+      "random_forest": 0.298,
+      "vqc": 187.831
+    }
+  },
+  "recursos_quanticos": {
+    "qsvc_amplitude": {
+      "n_qubits": 2,
+      "depth_native": 1,
+      "depth_basis_ucx": 4,
+      "kernel": "FidelityStatevectorKernel (simulador statevector exato)"
+    },
+    "vqc": {
+      "n_qubits": 4,
+      "feature_map": "PauliFeatureMap(reps=1, paulis=[Z, ZZ])",
+      "ansatz": "EfficientSU2(reps=2)",
+      "n_parametros_treinaveis": 24,
+      "depth_basis_ucx": 28,
+      "otimizador": "SPSA(maxiter=120)"
+    }
+  },
+  "metricas_holdout": {
+    "cenario1_anomalia": {
+      "svm_rbf": {
+        "auc": 0.9477,
+        "f1_anomalia": 0.6207,
+        "accuracy": 0.9048,
+        "fit_s": 0.449,
+        "latencia_ms_amostra": 0.0351,
+        "n_treino": 4160
+      },
+      "random_forest": {
+        "auc": 0.9541,
+        "f1_anomalia": 0.6705,
+        "accuracy": 0.9452,
+        "fit_s": 0.142,
+        "latencia_ms_amostra": 0.0137,
+        "n_treino": 4160
+      },
+      "mlp": {
+        "auc": 0.9623,
+        "f1_anomalia": 0.6795,
+        "accuracy": 0.9519,
+        "fit_s": 1.202,
+        "latencia_ms_amostra": 0.0004,
+        "n_treino": 4160
+      },
+      "gradient_boosting": {
+        "auc": 0.9544,
+        "f1_anomalia": 0.6083,
+        "accuracy": 0.9096,
+        "fit_s": 0.366,
+        "latencia_ms_amostra": 0.0006,
+        "n_treino": 4160
+      },
+      "qsvc_amplitude": {
+        "auc": 0.9083,
+        "f1_anomalia": 0.8584,
+        "accuracy": 0.851,
+        "fit_s": 4.919,
+        "latencia_ms_amostra": 8.5498,
+        "n_treino": 664,
+        "n_janelas_total": 1039
+      }
+    },
+    "cenario2_manutencao": {
+      "random_forest": {
+        "accuracy": 0.9626,
+        "f1_macro": 0.9279,
+        "f1_por_classe": {
+          "normal": 0.9858,
+          "monitoramento": 0.9333,
+          "alerta": 0.8929,
+          "critico": 0.8994
+        },
+        "fit_s": 0.298,
+        "latencia_ms_amostra": 0.0355,
+        "n_treino": 3952
+      },
+      "vqc": {
+        "accuracy": 0.6559,
+        "f1_macro": 0.5357,
+        "fit_s": 187.831,
+        "latencia_ms_amostra": 1.5304,
+        "n_treino": 400,
+        "spsa_maxiter": 120
+      }
+    },
+    "recursos_quanticos": {
+      "qsvc_amplitude": {
+        "n_qubits": 2,
+        "depth_native": 1,
+        "depth_basis_ucx": 4,
+        "kernel": "FidelityStatevectorKernel (simulador statevector exato)"
+      },
+      "vqc": {
+        "n_qubits": 4,
+        "feature_map": "PauliFeatureMap(reps=1, paulis=[Z, ZZ])",
+        "ansatz": "EfficientSU2(reps=2)",
+        "n_parametros_treinaveis": 24,
+        "depth_basis_ucx": 28,
+        "otimizador": "SPSA(maxiter=120)"
+      }
+    }
+  }
+}

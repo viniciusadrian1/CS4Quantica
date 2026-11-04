@@ -1,0 +1,27 @@
+{
+  "data_da_consolidacao": "2026-11-03",
+  "registros": 5200,
+  "anomalias": {
+    "0": 4776,
+    "1": 424
+  },
+  "tipos": {
+    "normal": 4776,
+    "falha_rolamento": 108,
+    "sobreaquecimento_desbalanceamento_adversarial": 54,
+    "sobreaquecimento_desbalanceamento": 120,
+    "falha_rolamento_adversarial": 42,
+    "sobrecorrente": 76,
+    "sobrecorrente_adversarial": 24
+  },
+  "manutencao": {
+    "critico": 407,
+    "alerta": 434,
+    "monitoramento": 728,
+    "normal": 3371,
+    "parada_programada": 260
+  },
+  "janelas_10_passo_5": 1039,
+  "janelas_positivas": 558,
+  "arquivos_originais": 37
+}

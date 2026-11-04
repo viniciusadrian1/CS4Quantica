@@ -1,0 +1,187 @@
+[
+  {
+    "arquivo_original": "PLANEJAMENTO_SPRINT3.md",
+    "bytes": 16152,
+    "sha256": "b17d7e2521cdeda50b8521749e74bcb11ea4da55591f9c971628964e4ed3d4b1"
+  },
+  {
+    "arquivo_original": "Relatorio_Final_Sprint3_FORZY.pdf",
+    "bytes": 487869,
+    "sha256": "fc3a220175ba35d432bc36cb10725eb6146e7ad1946d9650b2f152627100c075"
+  },
+  {
+    "arquivo_original": "sprint3/api.py",
+    "bytes": 8709,
+    "sha256": "468dd80e2420ae624c92ce1e8f9ebe1c53f8d2558aa783d45617e30882a1dea0"
+  },
+  {
+    "arquivo_original": "sprint3/capture_dashboard.py",
+    "bytes": 1251,
+    "sha256": "90f3bed161db6c817b95d2950e12c226491afb0af91758320602f24a8993f5b6"
+  },
+  {
+    "arquivo_original": "sprint3/common.py",
+    "bytes": 6925,
+    "sha256": "8f5660f5d158a48d7825b7af6d80749183ef494f0827fee33d75b19882aef3bf"
+  },
+  {
+    "arquivo_original": "sprint3/dashboard.py",
+    "bytes": 10876,
+    "sha256": "531b890a60f7815205cbac6d9ffecaa3448b6933febca7345b93a8d0e1e15ff7"
+  },
+  {
+    "arquivo_original": "sprint3/evaluate_integration.py",
+    "bytes": 7849,
+    "sha256": "124487705083e53e18a570026ab27358b687340d1f1a578da01bdbeea45f86f9"
+  },
+  {
+    "arquivo_original": "sprint3/inference.py",
+    "bytes": 13601,
+    "sha256": "e6d2b01fdea9579432e2991105b483fe3ce1f80675997015197c1a70510dcb22"
+  },
+  {
+    "arquivo_original": "sprint3/make_diagram.py",
+    "bytes": 3894,
+    "sha256": "39cd32223362bb358ad377a785beb80d462d7030474ae19b9f705f0db1e5b3a6"
+  },
+  {
+    "arquivo_original": "sprint3/models/anomalia_gradient_boosting.joblib",
+    "bytes": 140216,
+    "sha256": "40266adb04532e7ba0f8668881078dae7ab96ef41351fc9eb2f72042e9ef1047"
+  },
+  {
+    "arquivo_original": "sprint3/models/anomalia_mlp.joblib",
+    "bytes": 89128,
+    "sha256": "0208a09fdbc59739a047ed3ef9c97fb19550cb9167d2aadcff32ae34b91bde9f"
+  },
+  {
+    "arquivo_original": "sprint3/models/anomalia_qsvc_amplitude.joblib",
+    "bytes": 41737,
+    "sha256": "af74971ffaa0f8b3eff32a7ca7f1a952238583c3d18000e6dc01a8dc4273ca86"
+  },
+  {
+    "arquivo_original": "sprint3/models/anomalia_random_forest.joblib",
+    "bytes": 2763129,
+    "sha256": "9dd34902e41e9aa04bd32c62ed7e245e9ec387e1951e3f6f3c735515e3e830ce"
+  },
+  {
+    "arquivo_original": "sprint3/models/anomalia_svm_rbf.joblib",
+    "bytes": 51547,
+    "sha256": "71c66c86533f2b66dac7559832d02b28de07bd40f898e164cd2b2678ecb02d1d"
+  },
+  {
+    "arquivo_original": "sprint3/models/imputation_defaults.json",
+    "bytes": 285,
+    "sha256": "1d179bb2ad8493b128364d8e8fa116fc92527b842f0c97c9c447ebd60be3c612"
+  },
+  {
+    "arquivo_original": "sprint3/models/manutencao_random_forest.joblib",
+    "bytes": 9217609,
+    "sha256": "bcafa655830663bfcd91777896a62c8a7646ecac7efff7d53bde709d598e9cfb"
+  },
+  {
+    "arquivo_original": "sprint3/models/manutencao_vqc.npz",
+    "bytes": 914,
+    "sha256": "6335b8452f5891a2435db4332919a2ad7444267a7e7140e774479628a40f0649"
+  },
+  {
+    "arquivo_original": "sprint3/models/metrics.json",
+    "bytes": 2054,
+    "sha256": "59a7d0c6379ba58f179fda3eff78e6908171429ee606441c017f091b347856a5"
+  },
+  {
+    "arquivo_original": "sprint3/models/preproc_manutencao.joblib",
+    "bytes": 839,
+    "sha256": "1dbbf7bd22d39cb65d768e2f74e1e7b715a6e9e63c61845c748eacadd034c390"
+  },
+  {
+    "arquivo_original": "sprint3/models/preproc_pontual.joblib",
+    "bytes": 2817,
+    "sha256": "a93506d7b232983279c1514f728b4705cbbf82d2f925bce7923beeb44182fda8"
+  },
+  {
+    "arquivo_original": "sprint3/pytest.ini",
+    "bytes": 180,
+    "sha256": "304b396f49e65766c125bec25a92e67956e10babcc4ca2fc4445c35dc0163231"
+  },
+  {
+    "arquivo_original": "sprint3/README.md",
+    "bytes": 10928,
+    "sha256": "6c999e00ca4c8840ecc2afc9e7b7cae5d94514844a19e9154c4326529fdfca0f"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/arquitetura.png",
+    "bytes": 264092,
+    "sha256": "4ae37c2f95a4b4aa18038d775b09ae58435951dd72f6126ca0f3a60f99ff9322"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/avaliacao_integrada.json",
+    "bytes": 4630,
+    "sha256": "f101e197a9fdb936d0f475db4c1a147974460426d4388478e3824736328f7d52"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/build_report.py",
+    "bytes": 46187,
+    "sha256": "f3ba8b3af2b79b9f81240378108711529d3f9e1ac18e022c623d5e64c4ee2bc7"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/dashboard_alerta.png",
+    "bytes": 197407,
+    "sha256": "f94f0f5e9aba3242d24acf8050e470d1768eac585412b74c0a458f746e25710b"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/dashboard_replay.gif",
+    "bytes": 1021104,
+    "sha256": "91eec9ad6607bc8ce0e0059c084795a9e19e7a45bcd3ce70387127198f835319"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/dashboard_replay.png",
+    "bytes": 175338,
+    "sha256": "3ba9ad6508fedc231699e15046bc27ca35fd407f754166538b6e2233196c6e1e"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/exemplo_resposta_real.json",
+    "bytes": 1482,
+    "sha256": "0d0a6d85eb23e58d1e3bf020d28e345448b0254b2959dec16c5e29b1363cc9e5"
+  },
+  {
+    "arquivo_original": "sprint3/relatorio/Relatorio_Final_Sprint3_FORZY.pdf",
+    "bytes": 487869,
+    "sha256": "fc3a220175ba35d432bc36cb10725eb6146e7ad1946d9650b2f152627100c075"
+  },
+  {
+    "arquivo_original": "sprint3/requirements.txt",
+    "bytes": 384,
+    "sha256": "9c711670c0928333999c82683488c2dad0fb4b3898d1ee9f30bc06b2c5f890a1"
+  },
+  {
+    "arquivo_original": "sprint3/sprint2_core/arquitetura_hibrida_sprint2.py",
+    "bytes": 22908,
+    "sha256": "654bd7478abfd7ea0a12bd4ee452a3e076158b18fadab4871ce6e6803ef46034"
+  },
+  {
+    "arquivo_original": "sprint3/sprint2_core/dataset_motor_sprint2_bruto.csv",
+    "bytes": 598544,
+    "sha256": "820ffe48ba9c829defc98b23affdf35b0df0b0c6d4fffd9ea2e01f0b6eaf66a6"
+  },
+  {
+    "arquivo_original": "sprint3/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "arquivo_original": "sprint3/tests/test_api.py",
+    "bytes": 4614,
+    "sha256": "17ce08945f15849ca2b45ec3d8baf13f44dab9b7f143bd0a0f480156bc866663"
+  },
+  {
+    "arquivo_original": "sprint3/tests/test_inference.py",
+    "bytes": 6715,
+    "sha256": "be2289aece0f1691a7f9c32ed79812025aaace4afd1978364dd7f33e143e9285"
+  },
+  {
+    "arquivo_original": "sprint3/train_and_persist.py",
+    "bytes": 16538,
+    "sha256": "7ae08ff261d6f6cc84d1d1b04f8f641195cee3b6e72d437a0904864b75253113"
+  }
+]

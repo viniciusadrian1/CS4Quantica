@@ -1,0 +1,21 @@
+# Herdado do Sprint 2 (faixas homologadas)
+numpy>=1.26,<3.0
+pandas>=2.2,<3.0
+scipy>=1.10,<2.0
+scikit-learn>=1.4,<2.0
+imbalanced-learn>=0.12,<1.0
+qiskit>=1.0,<2.0
+qiskit-machine-learning>=0.7,<1.0
+
+# Novos no Sprint 3
+qiskit-aer>=0.14,<1.0
+joblib>=1.3
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.35
+requests>=2.31
+matplotlib>=3.8
+
+# Testes automatizados (tests/)
+pytest>=8.0
+httpx>=0.27

@@ -1,0 +1,11 @@
+{
+  "tensao_V": 220.08845,
+  "corrente_A": 7.9056999999999995,
+  "temperatura_C": 67.45725,
+  "rpm": 1450.65,
+  "vibracao_mm_s": 3.46795,
+  "pressao_bar": 5.013249999999999,
+  "eficiencia_pct": 88.065,
+  "harmonicos_thd_pct": 3.5256499999999997,
+  "corrente_partida_A": 0.0
+}
