@@ -15,11 +15,13 @@ O projeto integra detecção de anomalias e classificação de estados de manute
 
 ## Autores
 
-- Augusto Oliveira Codo de Sousa - RM502080
+- Augusto Oliveira Codo de Sousa - RM562080
 - Felipe de Oliveira Cabral - RM561720
 - Gabriel Tonelli Avelino Dos Santos - RM564705
 - Sofia Bueris Netto de Souza - RM565818
 - Vinícius Adrian Siqueira de Oliveira - RM564962
+
+O RM de Augusto foi corrigido para **562080** na documentação final. Os documentos históricos da Sprint 3 foram preservados como recebidos e podem conter a identificação anterior.
 
 ## Navegação
 
