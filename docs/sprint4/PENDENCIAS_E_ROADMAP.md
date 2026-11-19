@@ -1,6 +1,6 @@
 # PENDENCIAS E ROADMAP
 
-Consolidação inicial: 03/11/2026. Revisão 1.7: 18/11/2026. Consulte o relatório para o contexto completo.
+Consolidação inicial: 03/11/2026. Revisão 1.8: 19/11/2026. Consulte o relatório para o contexto completo.
 
 ## 12. Pendências e justificativas
 
@@ -17,7 +17,7 @@ Tabela 14. Lacunas do escopo entregue
 | [H] VQC competitivo | A configuração persistida tem F1-macro 0,5357; alternativas relatadas não melhoraram. | Uso exploratório, sem fundamento para substituir o RF. |
 | [H/C] Operação em produção | Chave opcional nos POST, buffer em memória e log best effort. | Autorização, continuidade e durabilidade incompletas. |
 | [C] CI e experimentos auditáveis | Workflow, logs de CI e resultados brutos das tentativas VQC ausentes. | Não é possível certificar execução nem datas. |
-| [C] Atualização e submissão acadêmica | V1.6 acessível no Drive em 18/11. V1.7 deve substituí-la. Envio no portal e data da banca não comprovados. | Substituir os arquivos e confirmar o protocolo acadêmico. |
+| [C] Atualização e submissão acadêmica | V1.6 acessível no Drive em 18/11. V1.8 deve substituí-la. Envio no portal e data da banca não comprovados. | Substituir os arquivos e confirmar o protocolo acadêmico. |
 
 A ausência de um artefato não demonstra que ele nunca existiu. A tabela distingue previsão de escopo, limitação observada e causa histórica não documentada. Para recuperar o motivo original, seria necessário registro da decisão ou confirmação dos responsáveis. Não se atribuem atrasos a tempo, orçamento ou hardware por inferência.
 

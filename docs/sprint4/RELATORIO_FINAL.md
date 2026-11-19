@@ -1,6 +1,6 @@
 # Documentação Final FORZY - Sprint 4
 
-Consolidação inicial: 03/11/2026. Revisão documental 1.7: 18/11/2026.
+Consolidação inicial: 03/11/2026. Revisão documental 1.8: 19/11/2026.
 
 Augusto Oliveira Codo de Sousa - RM502080
 Felipe de Oliveira Cabral - RM561720
@@ -28,7 +28,7 @@ O projeto comprova a viabilidade de integrar QML simulado ao fluxo do Digital Tw
 
 As evidências do projeto vêm do pacote fornecido e do enunciado. A bibliografia B01-B06 foi consultada nesta revisão para fundamentação conceitual, sem atribuir seu uso às sprints anteriores. As referências E01 a E12 identificam arquivos, código, imagens e conferências documentais. Métricas históricas não foram apresentadas como novas execuções. Os originais foram preservados e inventariados com SHA-256.
 
-Consolidação inicial: 03/11/2026. Revisão documental 1.7: 18/11/2026. A data da apresentação à banca não foi informada.
+Consolidação inicial: 03/11/2026. Revisão documental 1.8: 19/11/2026. A data da apresentação à banca não foi informada.
 
 ## 2. Jornada do POC à integração
 
@@ -43,7 +43,7 @@ Tabela 1. Progressão e alcance das evidências
 
 ### Marcos que podem ser datados
 
-O planejamento da sprint 3 traz a data de 12/08/2026. A capa do relatório anterior informa agosto de 2026. A consolidação inicial da sprint 4 ocorreu em 03/11/2026; esta revisão documental é de 18/11/2026. O material descreve refinamentos “após a primeira entrega”, mas não fornece commits, logs ou datas individuais para localizar cada mudança no calendário. [E01, E09]
+O planejamento da sprint 3 traz a data de 12/08/2026. A capa do relatório anterior informa agosto de 2026. A consolidação inicial da sprint 4 ocorreu em 03/11/2026; esta revisão documental é de 19/11/2026. O material descreve refinamentos “após a primeira entrega”, mas não fornece commits, logs ou datas individuais para localizar cada mudança no calendário. [E01, E09]
 
 ### Limite da reconstrução histórica
 
@@ -175,7 +175,7 @@ Tabela 5. Antes/depois documental, sem alterações no produto
 | Métricas sem leitura crítica consolidada. | 424 anomalias; regra, baseline e dependência temporal conferidas. | Seções 3 e 8-11; JSONs e scripts documentais. |
 | CI e persistência tratadas como garantidas. | CI sem comprovação; log best effort explicitado. | Seções 4, 7 e 12. |
 | Organização apenas no pacote local. | Publicação V1.6 e acesso aos materiais conferidos. | Commit 6e67026; registro de fechamento. |
-| Pitch denso e PDF visual sem texto. | V1.7: evidência ampliada, ressalva destacada, fala reduzida e PDF pesquisável. | Slides 5, 6 e 8; roteiro revisado. |
+| Pitch denso e PDF visual sem texto. | V1.8: indicadores da captura transcritos para projeção, valor para a FORZY explícito e PDF pesquisável. | Slides 5, 6 e 8; roteiro revisado. |
 
 ### Marcos verificáveis da publicação
 
@@ -183,7 +183,7 @@ Tabela 5. Antes/depois documental, sem alterações no produto
 
 18/11/2026: conferência pública da V1.6: quatro arquivos do Drive idênticos às cópias locais por SHA-256; 58 arquivos no GitHub conferidos e 37 originais preservados. Regra e baseline reconferidas, sem executar RF/VQC ou API.
 
-18/11/2026, V1.7: revisão de comunicação e fechamento. A nova versão deve substituir os arquivos da V1.6 no Drive. O envio no portal da disciplina e a data da banca não foram comprovados.
+19/11/2026, V1.8: revisão de comunicação e fechamento. A nova versão deve substituir os arquivos da V1.6 no Drive. O envio no portal da disciplina e a data da banca não foram comprovados.
 
 E11: REGISTRO_FECHAMENTO.md e conferencia_publicacao_v1_6.json. Datas de publicação e conferência são distintas das datas de desenvolvimento. Nenhuma melhoria numérica dos modelos é atribuída à sprint 4.
 
@@ -349,7 +349,7 @@ Tabela 14. Lacunas do escopo entregue
 | [H] VQC competitivo | A configuração persistida tem F1-macro 0,5357; alternativas relatadas não melhoraram. | Uso exploratório, sem fundamento para substituir o RF. |
 | [H/C] Operação em produção | Chave opcional nos POST, buffer em memória e log best effort. | Autorização, continuidade e durabilidade incompletas. |
 | [C] CI e experimentos auditáveis | Workflow, logs de CI e resultados brutos das tentativas VQC ausentes. | Não é possível certificar execução nem datas. |
-| [C] Atualização e submissão acadêmica | V1.6 acessível no Drive em 18/11. V1.7 deve substituí-la. Envio no portal e data da banca não comprovados. | Substituir os arquivos e confirmar o protocolo acadêmico. |
+| [C] Atualização e submissão acadêmica | V1.6 acessível no Drive em 18/11. V1.8 deve substituí-la. Envio no portal e data da banca não comprovados. | Substituir os arquivos e confirmar o protocolo acadêmico. |
 
 A ausência de um artefato não demonstra que ele nunca existiu. A tabela distingue previsão de escopo, limitação observada e causa histórica não documentada. Para recuperar o motivo original, seria necessário registro da decisão ou confirmação dos responsáveis. Não se atribuem atrasos a tempo, orçamento ou hardware por inferência.
 
@@ -401,7 +401,7 @@ As dependências usam faixas de versão, sem lockfile. A compatibilidade exata d
 
 Repositório do projeto: https://github.com/viniciusadrian1/CS4Quantica. Conta responsável: viniciusadrian1 (Vinícius Adrian). A raiz contém README.md, sprint3/ e docs/. Relatório, slides e roteiro ficam em docs/sprint4/entrega/. O histórico desta publicação não comprova datas individuais das mudanças técnicas anteriores.
 
-Drive: pasta de entrega do Challenge. Acesso à V1.6 conferido em 18/11/2026; substituir pela V1.7. Registro e hashes: docs/sprint4/REGISTRO_FECHAMENTO.md.
+Drive: pasta de entrega do Challenge. Acesso à V1.6 conferido em 18/11/2026; substituir pela V1.8. Registro e hashes: docs/sprint4/REGISTRO_FECHAMENTO.md.
 
 ## 14. Conclusão
 
@@ -411,15 +411,15 @@ Os resultados persistidos favorecem a solução clássica de manutenção na con
 
 A sprint 4 acrescenta organização, conferência dos dados e clareza de comunicação. Esta versão mantém a concordância da regra (99,90% no total e 100,00% no teste reconstruído) e explicita a sobreposição temporal das janelas de manutenção: 988/988 registros de teste compartilham leituras com o treino reconstruído. Os modelos não foram retreinados. A revisão corrige a contagem de anomalias do CSV, distingue métricas de lote e de API, qualifica o histórico de evolução e registra lacunas de reprodução. A documentação não modifica modelos, rotas ou interface.
 
-Para a FORZY, o projeto deixa uma base técnica para um piloto posterior. O próximo passo plausível é validar o sistema em dados temporais independentes e telemetria real, com critérios operacionais definidos. A migração para QPU e o endurecimento da API devem seguir evidências de qualidade, custo e necessidade.
+Para a FORZY, o valor demonstrado é reunir sensores, alertas e respostas dos modelos em um fluxo consultável, permitindo examinar uma ocorrência e comparar as rotas. O alerta apoia a análise humana; não constitui ordem de manutenção. Redução de paradas, economia e antecedência útil são benefícios a validar, não resultados medidos. O próximo passo é um piloto com avaliação temporal independente e eventos reais de manutenção, antes de decidir por QPU ou operação em produção.
 
 ### Coerência da apresentação final
 
-Os slides seguem os mesmos números, ressalvas e prioridades do relatório. O roteiro acompanha a sequência de problema, jornada, integração, evolução, resultados e pendências. As capturas antigas são identificadas como evidências históricas, e as melhorias futuras não aparecem como funcionalidades entregues.
+Os slides seguem os mesmos números, ressalvas e prioridades do relatório. O roteiro acompanha a sequência de problema, jornada, integração, evolução, resultados e pendências. As capturas antigas são identificadas como evidências históricas. O slide 5 transcreve seus indicadores em texto maior, sem alterar a imagem ou tratar confiança por resposta como acurácia. Melhorias futuras não aparecem como funcionalidades entregues.
 
 ### Estado da entrega
 
-O repositório do projeto é CS4Quantica, da conta viniciusadrian1, com endereço na seção 13. Relatório e apresentação também estão em docs/sprint4/entrega/. A pasta do Drive já contém a V1.6, conferida sem login em 18/11/2026. Esta revisão 1.7 substitui aquele pacote e ainda deve ser enviada pelo grupo. A entrega no portal da disciplina e a data da banca não foram comprovadas. A publicação dos materiais não equivale ao protocolo acadêmico de submissão.
+O repositório do projeto é CS4Quantica, da conta viniciusadrian1, com endereço na seção 13. Relatório e apresentação também estão em docs/sprint4/entrega/. A pasta do Drive já contém a V1.6, conferida sem login em 18/11/2026. Esta revisão 1.8 substitui aquele pacote e ainda deve ser enviada pelo grupo. A entrega no portal da disciplina e a data da banca não foram comprovadas. A publicação dos materiais não equivale ao protocolo acadêmico de submissão.
 
 ## 15. Referências e índice de evidências
 

@@ -1,6 +1,6 @@
 # Entrega final — FORZY Sprint 4
 
-**Versão documental 1.7. Revisão: 18/11/2026. Consolidação inicial: 03/11/2026.**
+**Versão documental 1.8. Revisão: 19/11/2026. Consolidação inicial: 03/11/2026.**
 
 Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**.
 
@@ -14,7 +14,7 @@ Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.co
 
 ## Substituição no Drive
 
-A [pasta de entrega](https://drive.google.com/drive/folders/1TaULNrjLi0GuwvVz_8a4ZuFJcE9nZP34) já contém a V1.6, conferida sem login em 18/11/2026. Substitua os dois PDFs, o PPTX e `CS4Quantica.zip` pela V1.7. O ZIP novo chama-se `Sprint4_FORZY_Entrega_Final_v1_7.zip`; pode conservar esse nome no Drive. Evite deixar versões antigas ao lado da entrega atual.
+A [pasta de entrega](https://drive.google.com/drive/folders/1TaULNrjLi0GuwvVz_8a4ZuFJcE9nZP34) já contém a V1.6, conferida sem login em 18/11/2026. Substitua os dois PDFs, o PPTX e `CS4Quantica.zip` pela V1.8. O ZIP novo chama-se `Sprint4_FORZY_Entrega_Final_v1_8.zip`; pode conservar esse nome no Drive. Evite deixar versões antigas ao lado da entrega atual.
 
 O roteiro pode ser adicionado separadamente. Confira os arquivos depois da substituição e envie o link da pasta pelo canal indicado pelo professor. Esse protocolo acadêmico e a data da banca não foram comprovados. O enunciado fornecido não exige vídeo.
 

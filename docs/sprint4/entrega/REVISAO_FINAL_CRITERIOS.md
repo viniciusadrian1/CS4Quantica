@@ -1,6 +1,6 @@
 # Revisão final pelos critérios da Sprint 4
 
-**Versão documental: 1.7. Revisão: 18/11/2026. Consolidação inicial: 03/11/2026.** Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica).
+**Versão documental: 1.8. Revisão: 19/11/2026. Consolidação inicial: 03/11/2026.** Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica).
 
 ## Cobertura e limites
 
@@ -29,13 +29,18 @@ Os scripts documentais e seus JSONs estão em `docs/sprint4/`. Ordem de execuç�
 
 A versão 1.6 inclui a URL do repositório na documentação, no README e no slide 15, além de disponibilizar os materiais finais em `docs/sprint4/entrega/`. O histórico desta publicação não é usado para inventar datas de implementação das sprints anteriores.
 
-A V1.6 foi conferida sem login no Drive em 18/11/2026, com hashes iguais às cópias locais. A V1.7 deve substituir aquele pacote. Permanecem sem comprovação o envio no portal acadêmico e a data da banca.
+A V1.6 foi conferida sem login no Drive em 18/11/2026, com hashes iguais às cópias locais. A V1.8 deve substituir aquele pacote. Permanecem sem comprovação o envio no portal acadêmico e a data da banca.
 
 ## Validação
 
 Conferidos: métricas e contagens, consistência entre relatório e slides, paginação, legibilidade, estrutura do PPTX, dados dos gráficos, hashes dos originais e integridade do ZIP. O PPTX não foi aberto no PowerPoint ou Google Slides. O PDF dos slides preserva a composição visual e inclui camada textual pesquisável. As capturas permanecem imagens; não se declara marcação semântica completa. O PPTX é editável.
 
 
-## Revisão V1.7
+## Revisão V1.8
 
-Cronologia de publicação documentada sem atribuição retroativa de desenvolvimento. Motivos históricos não registrados identificados explicitamente. Captura ampliada no slide 5, ressalva metodológica destacada no slide 8 e roteiro principal reduzido a 931 palavras, com 10 minutos previstos. Detalhes adicionais ficam no apoio para perguntas. A revisão não cria evidências de CI, experimentos ou ambiente histórico ausentes.
+Cronologia de publicação documentada sem atribuição retroativa de desenvolvimento. Motivos históricos não registrados identificados explicitamente. Captura ampliada no slide 5, ressalva metodológica destacada no slide 8 e roteiro principal reduzido a 937 palavras, com 10 minutos previstos. Detalhes adicionais ficam no apoio para perguntas. A revisão não cria evidências de CI, experimentos ou ambiente histórico ausentes.
+
+
+## Refinamento final V1.8 — 19/11/2026
+
+Indicadores da captura histórica transcritos em fonte maior no slide 5, com distinção explícita entre confiança da resposta e acurácia. Abertura e conclusão do pitch focam o valor demonstrado para a FORZY e a próxima decisão de validação. O relatório separa consulta de alertas, decisão humana e benefícios operacionais ainda não medidos. As lacunas de histórico permanecem declaradas; não houve retreino, execução de novos benchmarks ou alteração do produto.

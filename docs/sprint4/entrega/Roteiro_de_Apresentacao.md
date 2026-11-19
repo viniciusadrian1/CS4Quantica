@@ -1,30 +1,30 @@
 # Roteiro de apresentação FORZY - Sprint 4
 
-**Versão 1.7 — revisão de 18/11/2026.** Consolidação inicial: 03/11/2026.
+**Versão 1.8 — revisão de 19/11/2026.** Consolidação inicial: 03/11/2026.
 
 Slides 1 a 13: **10 minutos de fala planejada**, mais até 1 minuto para transições. O tempo é uma estimativa para ensaio, não uma medição realizada. Slides 14 e 15 são de consulta. Leia somente os blocos “Fala”; fontes e apoio técnico não entram no pitch. Ajuste a duração ao tempo informado pelo professor.
 
 | Slide | Tempo | Palavras da fala |
 |---|---:|---:|
-| 1 | 25 s | 40 |
+| 1 | 25 s | 46 |
 | 2 | 40 s | 62 |
 | 3 | 40 s | 62 |
 | 4 | 50 s | 75 |
-| 5 | 40 s | 61 |
-| 6 | 55 s | 95 |
+| 5 | 40 s | 67 |
+| 6 | 55 s | 80 |
 | 7 | 55 s | 77 |
 | 8 | 90 s | 145 |
 | 9 | 45 s | 70 |
 | 10 | 40 s | 66 |
 | 11 | 45 s | 66 |
 | 12 | 45 s | 61 |
-| 13 | 30 s | 51 |
+| 13 | 30 s | 60 |
 
 ## Slide 1
 
 Tempo previsto: 25 segundos.
 
-**Fala:** Este trabalho encerra a trilha do Challenge FORZY. A entrega reúne a solução integrada, seus resultados e as pendências. A revisão 1.7 melhora a documentação e a apresentação. Os modelos, a API e o dashboard permanecem preservados, sem novas funcionalidades.
+**Fala:** Como reunir leituras de um motor e respostas de modelos para apoiar a análise de anomalias? O projeto FORZY entrega esse fluxo integrado e documenta seus limites. Vamos mostrar a solução, interpretar os resultados e indicar o que precisa ser validado antes de um piloto real.
 
 **Fontes e apoio, sem leitura obrigatória:** Enunciado E12; relatório final, seções 1 e 14.
 
@@ -56,15 +56,15 @@ Tempo previsto: 50 segundos.
 
 Tempo previsto: 40 segundos.
 
-**Fala:** Este recorte amplia a captura histórica da leitura 237. O painel mostra anomalia detectada e o estado de alerta, com os resultados clássico e quântico lado a lado. Essa é a evidência visual da integração. Os percentuais exibidos são confianças daquela resposta, não acurácias globais. O timestamp pertence ao replay sintético. A imagem original completa permanece no relatório e no repositório.
+**Fala:** Esta é a leitura 237 do replay sintético. A captura histórica mostra anomalia e estado de alerta nas duas rotas. Abaixo, os indicadores foram transcritos em tamanho maior: as confianças de manutenção são 75% no clássico e 31,6% no quântico. São valores desta resposta, não acurácias globais. O painel permite examinar a ocorrência, mas não substitui uma decisão humana de manutenção. A imagem integral permanece no relatório.
 
-**Fontes e apoio, sem leitura obrigatória:** E08: sprint3/relatorio/dashboard_alerta.png; relatório, seção 6. Recorte apenas de enquadramento, sem alterar os indicadores.
+**Fontes e apoio, sem leitura obrigatória:** E08: sprint3/relatorio/dashboard_alerta.png; relatório, seção 6. Captura histórica recortada e indicadores transcritos literalmente; sem nova execução.
 
 ## Slide 6
 
 Tempo previsto: 55 segundos.
 
-**Fala:** O relatório anterior descreve testes, autenticação e carga acrescentados após sua primeira entrega. O pacote contém 32 casos identificados por inspeção estática, chave opcional nos POST e resultados de carga. Não temos datas individuais que situem essas mudanças após o encerramento formal da sprint 3. O avanço comprovado da sprint 4 é documental: revisão das métricas, organização, publicação e apresentação. O commit de publicação é de 3 de novembro. Em 18 de novembro conferimos o acesso ao Drive e os hashes. A revisão 1.7 melhora o fechamento e deve substituir os arquivos anteriores no Drive.
+**Fala:** Na sprint 3, o sistema já integrava modelos, API e dashboard. O relatório anterior descreve testes, autenticação e carga acrescentados após sua primeira entrega, mas faltam datas individuais para situá-los após o encerramento formal da sprint. Na sprint 4, o avanço comprovado é documental: conferimos métricas, explicitamos limitações e organizamos as evidências. Isso permite à FORZY distinguir o que foi demonstrado do que ainda precisa de validação. O registro de publicação está disponível no relatório; testes funcionais não foram reexecutados.
 
 **Fontes e apoio, sem leitura obrigatória:** E01, E03, E06 e E11; relatório, seções 7 e 7.1; REGISTRO_FECHAMENTO.md. Testes funcionais não reexecutados.
 
@@ -120,7 +120,7 @@ Tempo previsto: 45 segundos.
 
 Tempo previsto: 30 segundos.
 
-**Fala:** A entrega consolida uma integração de QML simulado ao acompanhamento do motor. Os resultados são apresentados com seus limites, sem promessa de vantagem quântica ou de previsão independente de falhas. O repositório está publicado. A revisão documental 1.7 reúne relatório, slides e roteiro atualizados para substituir a versão anterior no Drive.
+**Fala:** Para a FORZY, o resultado demonstrado é um fluxo integrado para consultar sensores, alertas e respostas dos modelos. Reduzir paradas e antecipar falhas são benefícios a validar, ainda não medidos. A recomendação é começar pela avaliação temporal independente e por um piloto com eventos reais de manutenção. Essa evidência deve orientar a escolha dos modelos e a evolução para produção.
 
 **Fontes e apoio, sem leitura obrigatória:** Relatório, seções 13 e 14; REGISTRO_FECHAMENTO.md.
 
@@ -136,7 +136,7 @@ Slide de consulta, fora do tempo principal.
 
 Slide de consulta, fora do tempo principal.
 
-**Fala:** As métricas vêm das evidências internas E01-E12. A bibliografia fundamenta conceitos e foi consultada na revisão documental. O GitHub contém os materiais finais em docs/sprint4/entrega/. Acesso à V1.6 no Drive conferido em 18/11/2026. Esta V1.7 deve substituir os arquivos anteriores; a submissão no portal acadêmico e a data da banca dependem de confirmação do grupo.
+**Fala:** As métricas vêm das evidências internas E01-E12. A bibliografia fundamenta conceitos e foi consultada na revisão documental. O GitHub contém os materiais finais em docs/sprint4/entrega/. Acesso à V1.6 no Drive conferido em 18/11/2026. Esta V1.8 deve substituir os arquivos anteriores; a submissão no portal acadêmico e a data da banca dependem de confirmação do grupo.
 
 **Fontes e apoio, sem leitura obrigatória:** Relatório, seções 13, 15 e 15.1; REGISTRO_FECHAMENTO.md.
 
@@ -161,4 +161,4 @@ O RF histórico registra 96,26% de acurácia e F1-macro 0,9279; o VQC, 65,59% e 
 
 **Por que não houve telemetria real ou QPU?** A S3 as prevê como evolução futura; o pacote não documenta a causa original da postergação. Não é possível afirmar falta de prazo, orçamento ou acesso sem registro.
 
-**O Drive já foi conferido?** Sim, os quatro arquivos da V1.6 foram baixados sem login em 18/11/2026 e conferidos por SHA-256. A V1.7 precisa substituir aquele pacote; o protocolo de envio à disciplina não foi fornecido.
+**O Drive já foi conferido?** Sim, os quatro arquivos da V1.6 foram baixados sem login em 18/11/2026 e conferidos por SHA-256. A V1.8 precisa substituir aquele pacote; o protocolo de envio à disciplina não foi fornecido.

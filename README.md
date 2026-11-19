@@ -1,6 +1,6 @@
 # FORZY - QML integrado ao Digital Twin
 
-Documentação final do Challenge, disciplina de Computação Quântica e IA, FIAP, turma 2TIAPF. Consolidação inicial em **03/11/2026**. **Versão documental 1.7 — revisão de 18/11/2026**.
+Documentação final do Challenge, disciplina de Computação Quântica e IA, FIAP, turma 2TIAPF. Consolidação inicial em **03/11/2026**. **Versão documental 1.8 — revisão de 19/11/2026**.
 
 O projeto integra detecção de anomalias e classificação de estados de manutenção de um motor industrial. Usa dados sintéticos, modelos clássicos, QSVC e VQC em simulador Qiskit, API FastAPI, histórico SQLite e dashboard Streamlit.
 
@@ -173,7 +173,7 @@ A [bibliografia técnica](docs/sprint4/BIBLIOGRAFIA_TECNICA.md) contém seis ref
 
 ## Publicação
 
-Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**. A documentação final inclui essa referência; a V1.6 foi conferida no Drive sem login em 18/11/2026. A V1.7 deve substituir aquele pacote. O envio no portal acadêmico e a data da banca continuam sem comprovação.
+Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**. A documentação final inclui essa referência; a V1.6 foi conferida no Drive sem login em 18/11/2026. A V1.8 deve substituir aquele pacote. O envio no portal acadêmico e a data da banca continuam sem comprovação.
 
 ## Conferência metodológica V1.5
 
@@ -204,6 +204,6 @@ Os números estão em `temporal_overlap_maintenance`, no JSON da baseline, com �
 Proposta futura: blocos cronológicos por ativo, treino anterior ao teste e tratamento explícito das fronteiras, sem leituras brutas compartilhadas entre partições; transformadores ajustados somente no treino. O código e as métricas históricas permanecem preservados. A V1.5 corrige a interpretação documental, não o protocolo do produto.
 
 
-## Fechamento documental V1.7
+## Fechamento documental V1.8
 
 Veja [registro de fechamento](docs/sprint4/REGISTRO_FECHAMENTO.md) para datas de publicação, verificação da V1.6 e limites do histórico. O PDF dos slides agora tem camada textual pesquisável; o PPTX continua editável. O roteiro separa a fala principal dos detalhes para perguntas. Não foram alterados modelos, dados, API ou testes.

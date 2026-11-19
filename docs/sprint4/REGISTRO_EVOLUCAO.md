@@ -1,6 +1,6 @@
 # REGISTRO EVOLUCAO
 
-Consolidação inicial: 03/11/2026. Revisão 1.7: 18/11/2026. Consulte o relatório para o contexto completo.
+Consolidação inicial: 03/11/2026. Revisão 1.8: 19/11/2026. Consulte o relatório para o contexto completo.
 
 ## 7. Evolução técnica e limites históricos
 
@@ -30,7 +30,7 @@ Tabela 5. Antes/depois documental, sem alterações no produto
 | Métricas sem leitura crítica consolidada. | 424 anomalias; regra, baseline e dependência temporal conferidas. | Seções 3 e 8-11; JSONs e scripts documentais. |
 | CI e persistência tratadas como garantidas. | CI sem comprovação; log best effort explicitado. | Seções 4, 7 e 12. |
 | Organização apenas no pacote local. | Publicação V1.6 e acesso aos materiais conferidos. | Commit 6e67026; registro de fechamento. |
-| Pitch denso e PDF visual sem texto. | V1.7: evidência ampliada, ressalva destacada, fala reduzida e PDF pesquisável. | Slides 5, 6 e 8; roteiro revisado. |
+| Pitch denso e PDF visual sem texto. | V1.8: indicadores da captura transcritos para projeção, valor para a FORZY explícito e PDF pesquisável. | Slides 5, 6 e 8; roteiro revisado. |
 
 Marcos verificáveis da publicação
 
@@ -38,6 +38,6 @@ Marcos verificáveis da publicação
 
 18/11/2026: conferência pública da V1.6: quatro arquivos do Drive idênticos às cópias locais por SHA-256; 58 arquivos no GitHub conferidos e 37 originais preservados. Regra e baseline reconferidas, sem executar RF/VQC ou API.
 
-18/11/2026, V1.7: revisão de comunicação e fechamento. A nova versão deve substituir os arquivos da V1.6 no Drive. O envio no portal da disciplina e a data da banca não foram comprovados.
+19/11/2026, V1.8: revisão de comunicação e fechamento. A nova versão deve substituir os arquivos da V1.6 no Drive. O envio no portal da disciplina e a data da banca não foram comprovados.
 
 E11: REGISTRO_FECHAMENTO.md e conferencia_publicacao_v1_6.json. Datas de publicação e conferência são distintas das datas de desenvolvimento. Nenhuma melhoria numérica dos modelos é atribuída à sprint 4.
