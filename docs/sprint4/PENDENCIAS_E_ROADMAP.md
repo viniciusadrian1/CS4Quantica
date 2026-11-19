@@ -1,6 +1,6 @@
 # PENDENCIAS E ROADMAP
 
-Consolidação em 03/11/2026. Consulte o relatório para o contexto completo.
+Consolidação inicial: 03/11/2026. Revisão 1.7: 18/11/2026. Consulte o relatório para o contexto completo.
 
 ## 12. Pendências e justificativas
 
@@ -10,16 +10,16 @@ Tabela 14. Lacunas do escopo entregue
 
 | Pendência | Motivo ou limite comprovável | Consequência |
 | --- | --- | --- |
-| [H] Telemetria real e integração de planta | O pacote usa replay sintético. O relatório S3 coloca a conexão real em fase futura. | Generalização e ganho operacional não comprovados. |
-| [H] Hardware quântico real | Os backends entregues são simuladores. Não há jobs, medições ou custos de QPU. | Ruído e latência de hardware desconhecidos. |
+| [H] Telemetria real e integração de planta | A S3 prevê conexão futura. A causa original da postergação não foi registrada; não se infere falta de tempo ou acesso. | Generalização e ganho operacional não comprovados. |
+| [H] Hardware quântico real | Entregues somente simuladores, sem jobs de QPU. Não há registro que atribua a decisão a custo, hardware ou prazo. | Ruído e latência de hardware desconhecidos. |
 | [C] Validação temporal independente | Anomalia: pré-processamento global e janelas QSVC. Manutenção: janelas de 20 leituras antes do split; 988/988 testes sobrepostos ao treino reconstruído. | Holdout pode superestimar generalização. |
 | [C] Previsão de falha futura | A regra recomposta reproduz 99,90% dos rótulos operacionais; o alvo é uma classe de estado. | Não se estima RUL ou horizonte até falha. |
 | [H] VQC competitivo | A configuração persistida tem F1-macro 0,5357; alternativas relatadas não melhoraram. | Uso exploratório, sem fundamento para substituir o RF. |
 | [H/C] Operação em produção | Chave opcional nos POST, buffer em memória e log best effort. | Autorização, continuidade e durabilidade incompletas. |
 | [C] CI e experimentos auditáveis | Workflow, logs de CI e resultados brutos das tentativas VQC ausentes. | Não é possível certificar execução nem datas. |
-| [C] Submissão e data da banca | Repositório indicado na seção 13. Upload no Drive, permissões e data da banca ainda não confirmados. | Concluir a submissão e conferir acesso da banca. |
+| [C] Atualização e submissão acadêmica | V1.6 acessível no Drive em 18/11. V1.7 deve substituí-la. Envio no portal e data da banca não comprovados. | Substituir os arquivos e confirmar o protocolo acadêmico. |
 
-A ausência de um artefato não demonstra que ele nunca existiu. As justificativas acima distinguem decisões explicitadas no relatório S3 de limitações constatadas no pacote. Não foram atribuídos atrasos a falta de tempo, orçamento ou hardware sem registro que sustentasse essa causa.
+A ausência de um artefato não demonstra que ele nunca existiu. A tabela distingue previsão de escopo, limitação observada e causa histórica não documentada. Para recuperar o motivo original, seria necessário registro da decisão ou confirmação dos responsáveis. Não se atribuem atrasos a tempo, orçamento ou hardware por inferência.
 
 A sprint 4 registra essas pendências; resolvê-las tecnicamente exigiria novos desenvolvimentos ou experimentos, fora do escopo solicitado.
 

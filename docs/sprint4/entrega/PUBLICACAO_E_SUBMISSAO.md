@@ -1,25 +1,23 @@
-# Publicação e submissão - FORZY Sprint 4
+# Publicação e submissão — Sprint 4
 
-Versão 1.6. Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: viniciusadrian1 — Vinícius Adrian.
+**V1.7 — 18/11/2026.** Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta: **viniciusadrian1 — Vinícius Adrian**.
 
-## Organização no GitHub
+## Estado comprovado
 
-A raiz contém `README.md`, `sprint3/` e `docs/`. Os materiais finais estão em `docs/sprint4/entrega/`. A URL consta da seção 13 do relatório, do README e do slide 15. A publicação não altera os 37 arquivos originais nem comprova datas de desenvolvimento anteriores.
+A V1.6 está publicada no GitHub desde o commit 6e67026, de 03/11/2026 23:55:59 -03:00. Em 18/11/2026, quatro arquivos do Drive foram baixados sem login e comparados por SHA-256. O registro e os hashes daquela versão estão em `docs/sprint4/conferencia_publicacao_v1_6.json`.
 
-## Submissão no Drive
+Esta V1.7 atualiza a documentação e deve substituir a V1.6 no Drive. A conferência anterior não certifica o upload da V1.7.
 
-1. Crie a pasta `Sprint 4 - FORZY - 2TIAPF`.
-2. Envie o relatório PDF (22 páginas), os slides PDF e PPTX (15 slides) e o roteiro desta versão. O ZIP completo pode acompanhar os materiais.
-3. Inclua o endereço do repositório no registro da entrega.
-4. Abra os arquivos enviados e confira as versões. Verifique as permissões com o tipo de conta que a banca usará.
-5. Entregue o link da pasta pelo canal definido pelo professor.
+## Ações do grupo
 
-O envio e as permissões no Drive ainda não estão confirmados. O enunciado exige documentação e apresentação; não determina gravação de vídeo. Confirme com o professor data, duração e formato da apresentação.
+1. Abra a [pasta existente](https://drive.google.com/drive/folders/1TaULNrjLi0GuwvVz_8a4ZuFJcE9nZP34).
+2. Substitua o relatório PDF, o PPTX, o PDF dos slides e o ZIP pelo conjunto V1.7. Evite duplicatas de versões antigas.
+3. Adicione `Roteiro_de_Apresentacao.md` se quiser disponibilizá-lo fora do ZIP.
+4. Abra o relatório: a capa deve indicar versão 1.7 e revisão de 18/11/2026. O slide inicial também identifica a V1.7. Confira o acesso ao conjunto atualizado.
+5. Envie o link da pasta pelo canal oficial da disciplina e guarde o comprovante. O envio no portal e a data da banca não estão documentados neste pacote.
+
+O enunciado não exige gravação de vídeo. A duração do roteiro é proposta de ensaio; confirme o tempo da banca com o professor.
 
 ## Integridade
 
-O manifesto SHA-256 do pacote registra os arquivos desta versão, exceto o próprio manifesto. Para verificar uma cópia baixada do Drive, compare seu hash com o arquivo local correspondente. Uma edição posterior exige atualizar os hashes e o ZIP. Preserve os modelos e os resultados históricos.
-
-## Limites documentados
-
-Não há histórico Git anterior no pacote, logs de CI ou confirmação das datas individuais das mudanças técnicas. As conferências documentais não constituem reexecução de RF/VQC, API, testes funcionais ou benchmark.
+`MANIFESTO_SHA256.json` registra os arquivos V1.7, exceto ele próprio. Os hashes da conferência V1.6 são históricos e não devem ser usados para validar os PDFs/PPTX revisados. Código, modelos e dados originais permanecem intactos.

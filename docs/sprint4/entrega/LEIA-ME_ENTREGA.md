@@ -1,37 +1,25 @@
-# Entrega final - Sprint 4 FORZY
+# Entrega final — FORZY Sprint 4
 
-**Versão documental 1.6.** Consolidação: 03/11/2026. FIAP, Computação Quântica e IA, turma 2TIAPF.
+**Versão documental 1.7. Revisão: 18/11/2026. Consolidação inicial: 03/11/2026.**
 
-Repositório do projeto: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**.
+Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**.
 
-## Materiais
+## Arquivos
 
-1. `Documentacao_Final_FORZY_Sprint4.pdf`: relatório de 22 páginas.
-2. `Apresentacao_Final_FORZY_Sprint4.pptx`: 15 slides editáveis, com notas.
-3. `Apresentacao_Final_FORZY_Sprint4.pdf`: cópia visual dos slides.
-4. `Roteiro_de_Apresentacao.md`: fala sugerida e respostas para a banca.
-5. `repositorio/`: código, modelos, dados e documentação. No GitHub, seu conteúdo está na raiz; os materiais finais ficam em `docs/sprint4/entrega/`.
+- `Documentacao_Final_FORZY_Sprint4.pdf`: relatório de 22 páginas.
+- `Apresentacao_Final_FORZY_Sprint4.pptx`: 15 slides editáveis, com notas, tabelas e gráficos nativos.
+- `Apresentacao_Final_FORZY_Sprint4.pdf`: 15 páginas, com composição visual preservada e camada textual pesquisável. As capturas são imagens; não se declara acessibilidade completa por marcação semântica.
+- `Roteiro_de_Apresentacao.md`: fala principal de 10 minutos previstos, até 1 minuto adicional para transições e apoio técnico separado. Tempos a confirmar por ensaio.
+- `repositorio/`: código, modelos, dados e documentação. No GitHub, seu conteúdo está na raiz.
 
-## Conteúdo técnico preservado
+## Substituição no Drive
 
-A versão 1.6 acrescenta a referência remota e organiza a publicação. Mantém as conclusões da 1.5: dados sintéticos; regra com concordância de 99,90% no total operacional e 100,00% no teste reconstruído; baseline de 68,22% e F1-macro 0,2028; dependência temporal das janelas de manutenção de 20 leituras. RF/VQC continuam sendo resultados históricos, sem retreino.
+A [pasta de entrega](https://drive.google.com/drive/folders/1TaULNrjLi0GuwvVz_8a4ZuFJcE9nZP34) já contém a V1.6, conferida sem login em 18/11/2026. Substitua os dois PDFs, o PPTX e `CS4Quantica.zip` pela V1.7. O ZIP novo chama-se `Sprint4_FORZY_Entrega_Final_v1_7.zip`; pode conservar esse nome no Drive. Evite deixar versões antigas ao lado da entrega atual.
 
-Os 37 arquivos originais permanecem preservados por SHA-256. Os scripts documentais, JSONs e o índice de evidências sustentam as conferências. A publicação atual não recupera commits, datas ou logs históricos ausentes.
+O roteiro pode ser adicionado separadamente. Confira os arquivos depois da substituição e envie o link da pasta pelo canal indicado pelo professor. Esse protocolo acadêmico e a data da banca não foram comprovados. O enunciado fornecido não exige vídeo.
 
-## Entrega no Drive
+## Conteúdo preservado
 
-Envie esta versão do relatório e dos slides, acompanhada do roteiro e, se necessário, do ZIP completo. Inclua o link do GitHub no registro de entrega. Confira o acesso da banca conforme a orientação da disciplina. O upload e as permissões do Drive ainda precisam ser confirmados pelo grupo.
+As métricas históricas continuam iguais. Manutenção: alvo sintético, regra com 99,90% no total e 100,00% no teste reconstruído; baseline 68,22% e F1-macro 0,2028; dependência temporal das janelas explicitada. Não houve retreino ou novas funcionalidades.
 
-Não retreine os modelos nem execute o benchmark sobre os originais para preparar a submissão: esses comandos sobrescrevem resultados. A reprodução e seus limites estão no README.
-
-## Critérios
-
-| Critério | Peso | Localização |
-|---|---:|---|
-| Evolução | 20% | Relatório 7 e 7.1; slide 6 |
-| Diferenciais e resultados | 25% | Relatório 4-6 e 8-11; slides 4-10 |
-| Pendências e melhorias | 20% | Relatório 12 e 12.1; slides 11-12 |
-| Organização da documentação | 20% | Relatório, referências, README e inventário |
-| Apresentação | 15% | Slides, notas e roteiro |
-
-Confirme com o professor a data e o formato da banca. A matriz indica cobertura documental, sem antecipar nota.
+Os 37 arquivos originais estão preservados por SHA-256. O manifesto cobre os arquivos desta versão, exceto o próprio manifesto. Leia `docs/sprint4/REGISTRO_FECHAMENTO.md` para distinguir datas comprovadas de publicação das lacunas de desenvolvimento histórico.

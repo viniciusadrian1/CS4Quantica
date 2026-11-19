@@ -1,8 +1,8 @@
 # REGISTRO EVOLUCAO
 
-Consolidação em 03/11/2026. Consulte o relatório para o contexto completo.
+Consolidação inicial: 03/11/2026. Revisão 1.7: 18/11/2026. Consulte o relatório para o contexto completo.
 
-## 7. Evolução após a primeira entrega
+## 7. Evolução técnica e limites históricos
 
 O relatório S3 descreve avanços posteriores à sua primeira entrega. O quadro separa esse relato daquilo que o pacote permite inspecionar. Não há evidência suficiente para afirmar que todos ocorreram depois do encerramento formal da sprint 3. [E01]
 
@@ -22,20 +22,22 @@ Testes, autenticação e avaliação de carga estão representados por código o
 
 ## 7.1. Evolução documental na sprint 4
 
-Tabela 5. Consolidação executada em 03/11/2026
+Tabela 5. Antes/depois documental, sem alterações no produto
 
-| Antes | Depois | Evidência nesta entrega |
+| Antes | Depois comprovável | Evidência |
 | --- | --- | --- |
-| Relatório centrado na sprint 3. | Narrativa final com contexto, jornada, resultados, pendências e conclusão. | Documentacao_Final_FORZY_Sprint4.pdf e fonte Markdown. |
-| Métricas distribuídas em JSONs e narrativa. | Tabelas com unidades, amostras e distinção entre lote, serviço e HTTP. | Seções 8 a 11 e metricas_consolidadas.csv. |
-| 430 anomalias citadas no relatório. | 424 anomalias confirmadas no CSV entregue. | conferencia_dataset.json e seção 3. |
-| Regra de manutenção sem conferência quantitativa e baseline ausente. | V1.5: regra e baseline conferidas; 988/988 janelas de manutenção no teste se sobrepõem ao treino reconstruído. | Seção 9.1; JSONs e scripts documentais em docs/sprint4/. |
-| Afirmações de CI e persistência integral. | CI não comprovada; registro best effort explicitado. | Seções 4, 7 e 12. |
-| Arquivo compactado sem guia de entrega final. | README de navegação, inventário de fontes e roteiro de apresentação. | repositorio/README.md, docs/sprint4/ e LEIA-ME_ENTREGA.md. |
-| Apresentação final ausente no pacote. | Slides e roteiro com a mesma base factual do relatório. | Apresentacao_Final_FORZY_Sprint4.pptx e PDF. |
+| Relatório S3 e artefatos dispersos. | Relatório final, slides e README de navegação. | Seções 1-15; README e apresentação. |
+| Métricas sem leitura crítica consolidada. | 424 anomalias; regra, baseline e dependência temporal conferidas. | Seções 3 e 8-11; JSONs e scripts documentais. |
+| CI e persistência tratadas como garantidas. | CI sem comprovação; log best effort explicitado. | Seções 4, 7 e 12. |
+| Organização apenas no pacote local. | Publicação V1.6 e acesso aos materiais conferidos. | Commit 6e67026; registro de fechamento. |
+| Pitch denso e PDF visual sem texto. | V1.7: evidência ampliada, ressalva destacada, fala reduzida e PDF pesquisável. | Slides 5, 6 e 8; roteiro revisado. |
 
-Esses avanços tornam o trabalho legível e verificável, sem alterar o produto. A conferência incluiu leitura, contagem, revisão do código e, nas V1.3-V1.5, conferência da regra, baseline e sobreposição temporal nos índices reconstruídos. Os resultados de RF/VQC, testes funcionais e benchmark continuam sendo históricos.
+Marcos verificáveis da publicação
 
-O que não se pode preencher por inferência
+03/11/2026: data de consolidação registrada na V1.6. O commit 6e67026 publicou os artefatos; sua data e fuso constam de REGISTRO_FECHAMENTO.md. O commit não data a construção das funcionalidades anteriores.
 
-O pacote histórico não contém datas individuais de desenvolvimento, logs das tentativas adicionais do VQC nem histórico Git. A publicação atual organiza os artefatos, mas não recupera essas evidências antigas. O repositório do projeto está indicado na seção 13; a data da banca ainda deve ser confirmada.
+18/11/2026: conferência pública da V1.6: quatro arquivos do Drive idênticos às cópias locais por SHA-256; 58 arquivos no GitHub conferidos e 37 originais preservados. Regra e baseline reconferidas, sem executar RF/VQC ou API.
+
+18/11/2026, V1.7: revisão de comunicação e fechamento. A nova versão deve substituir os arquivos da V1.6 no Drive. O envio no portal da disciplina e a data da banca não foram comprovados.
+
+E11: REGISTRO_FECHAMENTO.md e conferencia_publicacao_v1_6.json. Datas de publicação e conferência são distintas das datas de desenvolvimento. Nenhuma melhoria numérica dos modelos é atribuída à sprint 4.

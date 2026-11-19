@@ -1,6 +1,6 @@
 # FORZY - QML integrado ao Digital Twin
 
-Documentação final do Challenge, disciplina de Computação Quântica e IA, FIAP, turma 2TIAPF. Consolidação da sprint 4 em **03/11/2026**.
+Documentação final do Challenge, disciplina de Computação Quântica e IA, FIAP, turma 2TIAPF. Consolidação inicial em **03/11/2026**. **Versão documental 1.7 — revisão de 18/11/2026**.
 
 O projeto integra detecção de anomalias e classificação de estados de manutenção de um motor industrial. Usa dados sintéticos, modelos clássicos, QSVC e VQC em simulador Qiskit, API FastAPI, histórico SQLite e dashboard Streamlit.
 
@@ -44,6 +44,9 @@ repositorio/
       entrega/                     PDF final, slides, roteiro e guia de submissão
       BIBLIOGRAFIA_TECNICA.md       Referências consultadas na revisão S4
       RELATORIO_FINAL.md            Fonte textual do relatório final
+      REGISTRO_FECHAMENTO.md       Marcos de publicação e revisão documental
+      conferencia_publicacao_v1_6.json
+                                   Verificação da entrega anterior no Drive/GitHub
       REGISTRO_EVOLUCAO.md          Registro antes/depois e evidências
       PENDENCIAS_E_ROADMAP.md       Lacunas, razões e critérios de aceite
       metricas_consolidadas.csv     Valores históricos com fonte
@@ -170,7 +173,7 @@ A [bibliografia técnica](docs/sprint4/BIBLIOGRAFIA_TECNICA.md) contém seis ref
 
 ## Publicação
 
-Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**. A documentação final inclui essa referência; a submissão no Drive e suas permissões devem ser conferidas pelo grupo.
+Repositório: [https://github.com/viniciusadrian1/CS4Quantica](https://github.com/viniciusadrian1/CS4Quantica). Conta responsável: **viniciusadrian1 — Vinícius Adrian**. A documentação final inclui essa referência; a V1.6 foi conferida no Drive sem login em 18/11/2026. A V1.7 deve substituir aquele pacote. O envio no portal acadêmico e a data da banca continuam sem comprovação.
 
 ## Conferência metodológica V1.5
 
@@ -199,3 +202,8 @@ Na divisão reconstruída, **988/988 janelas de teste (100%)** compartilham leit
 Os números estão em `temporal_overlap_maintenance`, no JSON da baseline, com índices e contagens por registro. Referem-se à partição completa anterior à subamostra VQC de 400 registros; não são contagens específicas dessa subamostra. A causalidade de uma janela não garante independência de uma divisão aleatória. A auditoria não quantifica eventual inflação dos resultados nem reexecuta RF/VQC.
 
 Proposta futura: blocos cronológicos por ativo, treino anterior ao teste e tratamento explícito das fronteiras, sem leituras brutas compartilhadas entre partições; transformadores ajustados somente no treino. O código e as métricas históricas permanecem preservados. A V1.5 corrige a interpretação documental, não o protocolo do produto.
+
+
+## Fechamento documental V1.7
+
+Veja [registro de fechamento](docs/sprint4/REGISTRO_FECHAMENTO.md) para datas de publicação, verificação da V1.6 e limites do histórico. O PDF dos slides agora tem camada textual pesquisável; o PPTX continua editável. O roteiro separa a fala principal dos detalhes para perguntas. Não foram alterados modelos, dados, API ou testes.
